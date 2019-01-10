@@ -12,7 +12,6 @@ export default EStyleSheet.create({
     justifyContent: 'center',
     width: imageWidth,
     height: imageWidth,
-    resizeMode: 'contain',
   },
   image: {
     width: imageWidth / 2,
@@ -23,6 +22,5 @@ export default EStyleSheet.create({
     letterSpacing: -0.5,
     marginTop: 15,
     color: '$white',
-
   },
 });
